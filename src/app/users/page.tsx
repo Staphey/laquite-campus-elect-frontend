@@ -1,5 +1,4 @@
 import StudentsList from "../components/ui/StudentsList";
-import UsersList from "../components/ui/UsersList";
 
 function Page() {
   return (
