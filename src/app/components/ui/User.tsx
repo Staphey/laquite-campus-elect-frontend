@@ -8,7 +8,7 @@ export type UserType = {
     role: string;
 }
 
-function User({ id, name, username, email, website}: UserType) {
+function User({name}: UserType) {
     return (
         <div>
         <div>{name}</div>
