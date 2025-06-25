@@ -26,8 +26,7 @@ const StudentsList = async () => {
             name={student.name}
             email={student.email}
             department={student.department}
-            role={student.role}
-          />
+            role={student.role} username={""} website={""}          />
         );
       })}
     </div>

@@ -13,12 +13,13 @@ async function UsersList() {
       {users.map((user) => {
         return (
           <User
+          key={user.id}
             id={user.id}
             name={user.name}
             email={user.email}
             username={user.username}
             website={user.website}
-          ></User>
+            department={user.department} role={""}          ></User>
         );
       })}
     </div>

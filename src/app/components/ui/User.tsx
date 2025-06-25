@@ -4,6 +4,8 @@ export type UserType = {
     username: string;
     email: string;
     website: string;
+    department: string;
+    role: string;
 }
 
 function User({ id, name, username, email, website}: UserType) {
